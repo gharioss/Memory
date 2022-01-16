@@ -1,0 +1,42 @@
+img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+body {
+  background-color: #680A34;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#restart {
+  background-color: #2F2740;
+  padding: 1em;
+  border-radius: 4px;
+  color: white;
+  font-size: 22px;
+}
+#centered {
+  display: flex;
+  justify-content: center;
+}
+* {
+  color: white;
+}
+p {
+  font-size: 24px;
+}
+#centered2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 40px;
+  font-style: italic;
+}
+img {
+  cursor: pointer;
+}
